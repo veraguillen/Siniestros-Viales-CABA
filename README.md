@@ -1,41 +1,28 @@
 # Proyecto de Análisis de Siniestros Viales en Buenos Aires 🚦
 
 ## Introducción 🌍
-
-Los siniestros viales representan un grave problema de seguridad en las vías urbanas, donde la interacción de vehículos y peatones puede resultar en accidentes fatales. En la Ciudad de Buenos Aires, la complejidad del tráfico y la alta densidad poblacional aumentan la necesidad de abordar este tema de manera efectiva. Este proyecto tiene como objetivo analizar datos sobre accidentes de tráfico para contribuir a la reducción de víctimas fatales y mejorar la seguridad vial.
-
-## Contexto 📊
-
-Argentina enfrenta una alarmante tasa de mortalidad en accidentes de tráfico, con cerca de 4,000 muertes anuales. Entre 2018 y 2022, más de 19,600 personas perdieron la vida en siniestros viales, lo que equivale a aproximadamente 11 muertes diarias. Las estadísticas indican que la probabilidad de morir en un accidente vial es considerablemente mayor que en incidentes delictivos, lo que subraya la urgencia de implementar medidas efectivas de prevención.
+Los siniestros viales han sido una de las principales preocupaciones en las ciudades, donde la convivencia entre vehículos y peatones puede llevar a situaciones trágicas. En la Ciudad de Buenos Aires, la intensa congestión del tráfico y la elevada densidad poblacional han acentuado esta problemática, haciendo necesario un enfoque riguroso para su análisis. Este proyecto se enfocó en examinar datos sobre accidentes de tráfico con el fin de generar estrategias que reduzcan la cantidad de víctimas fatales y fortalezcan la seguridad en las vías urbanas.
 
 ## Objetivo del Proyecto 🎯
-
-El **Observatorio de Movilidad y Seguridad Vial (OMSV)** de la Ciudad Autónoma de Buenos Aires ha solicitado un análisis de datos para proporcionar información que ayude a las autoridades a desarrollar estrategias efectivas para disminuir el número de víctimas fatales. Para este fin, se ha proporcionado un conjunto de datos en formato Excel que incluye información sobre homicidios en siniestros viales durante el periodo 2016-2021.
-
-### Material Adicional 📁
-
-Los datos se componen de dos hojas: "hechos" y "víctimas", junto con diccionarios de datos que facilitan la comprensión de la información proporcionada.
+El Observatorio de Movilidad y Seguridad Vial (OMSV) de la Ciudad Autónoma de Buenos Aires solicitó un análisis de datos para proporcionar información que ayudara a las autoridades a desarrollar estrategias efectivas para disminuir el número de víctimas fatales. Para este fin, se proporcionó un conjunto de datos en formato Excel que incluía información sobre homicidios en siniestros viales durante el periodo 2016-2021.
 
 ## Metodología 🛠️
+Análisis Exploratorio de Datos (EDA) 🔍
+Se realizó un análisis detallado de los datos utilizando un **notebook**  en Python.
+El proceso incluyó:
+Identificación de valores faltantes y outliers.
+Detección de registros duplicados.
+Visualización de patrones y tendencias a través de gráficos.
 
-### Análisis Exploratorio de Datos (EDA) 🔍
-
-- Se realizará un análisis detallado de los datos utilizando un **notebook** en Python.
-- El proceso incluirá:
-  - Identificación de valores faltantes y outliers.
-  - Detección de registros duplicados.
-  - Visualización de patrones y tendencias a través de gráficos.
-  
 
 ### Desarrollo del Dashboard 📈
-
-- Se creará un **dashboard interactivo** que contará con filtros para explorar los datos de manera intuitiva.
+Se diseñó un **dashboard interactivo**  que permite a los usuarios explorar los datos de forma intuitiva a través de filtros personalizados, facilitando el acceso a información clave y patrones relevantes en los siniestros viales.
 
 
 ### Análisis y KPIs 📏
 
-- Se extraerán análisis significativos a partir de las visualizaciones del dashboard.
-- Se medirán y representarán dos KPIs principales:
+Se llevaron a cabo análisis profundos a partir de las visualizaciones generadas en el dashboard. Se establecieron y evaluaron dos KPIs fundamentales:
+
   1. **Reducción del 10% en la tasa de homicidios** en siniestros viales en los últimos seis meses en comparación con el semestre anterior.
   2. **Disminución del 7% en los accidentes mortales de motociclistas** en el último año respecto al año anterior.
 
@@ -55,7 +42,7 @@ Sigue estos pasos para instalar y configurar el proyecto en tu máquina local:
 
 1. **Clona el Repositorio:**
     ```bash
-    git clonehttps://github.com/veraguillen/Siniestros-Viales-CABA.git
+    git clone https://github.com/veraguillen/Siniestros-Viales-CABA.git
     ```
 
 2. **Navega al Directorio del Proyecto:**
@@ -81,6 +68,5 @@ Sigue estos pasos para instalar y configurar el proyecto en tu máquina local:
 
 
 ## Contacto
-Para más información o preguntas, puedes contactar a:
 
 Correo Electrónico: vera.guillen27@gmail.com
